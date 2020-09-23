@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/src/0001_two_sum.cpp
+iostream
+-
+vector
+-
+map
+-
+
