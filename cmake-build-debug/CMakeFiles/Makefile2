@@ -75,6 +75,7 @@ CMAKE_BINARY_DIR = C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake
 all: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
 all: CMakeFiles/cpprevise_leetcode.dir/all
 all: CMakeFiles/0001_two_sum.dir/all
+all: CMakeFiles/0035_search_and_insert.dir/all
 
 .PHONY : all
 
@@ -87,6 +88,7 @@ preinstall:
 clean: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
 clean: CMakeFiles/cpprevise_leetcode.dir/clean
 clean: CMakeFiles/0001_two_sum.dir/clean
+clean: CMakeFiles/0035_search_and_insert.dir/clean
 
 .PHONY : clean
 
@@ -124,7 +126,7 @@ CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean:
 CMakeFiles/cpprevise_leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13 "Built target cpprevise_leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15 "Built target cpprevise_leetcode"
 .PHONY : CMakeFiles/cpprevise_leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -170,6 +172,33 @@ CMakeFiles/0001_two_sum.dir/rule: cmake_check_build_system
 CMakeFiles/0001_two_sum.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0001_two_sum.dir\build.make CMakeFiles/0001_two_sum.dir/clean
 .PHONY : CMakeFiles/0001_two_sum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0035_search_and_insert.dir
+
+# All Build rule for target.
+CMakeFiles/0035_search_and_insert.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 0035_search_and_insert"
+.PHONY : CMakeFiles/0035_search_and_insert.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0035_search_and_insert.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0035_search_and_insert.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/0035_search_and_insert.dir/rule
+
+# Convenience name for target.
+0035_search_and_insert: CMakeFiles/0035_search_and_insert.dir/rule
+
+.PHONY : 0035_search_and_insert
+
+# clean rule for target.
+CMakeFiles/0035_search_and_insert.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/clean
+.PHONY : CMakeFiles/0035_search_and_insert.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

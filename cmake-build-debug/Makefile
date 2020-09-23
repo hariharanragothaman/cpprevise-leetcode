@@ -168,6 +168,19 @@ cpprevise_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0001_two_sum.dir\build.make CMakeFiles/0001_two_sum.dir/build
 .PHONY : 0001_two_sum/fast
 
+#=============================================================================
+# Target rules for targets named 0035_search_and_insert
+
+# Build rule for target.
+0035_search_and_insert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0035_search_and_insert
+.PHONY : 0035_search_and_insert
+
+# fast build rule for target.
+0035_search_and_insert/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/build
+.PHONY : 0035_search_and_insert/fast
+
 src/0001_two_sum.obj: src/0001_two_sum.cpp.obj
 
 .PHONY : src/0001_two_sum.obj
@@ -306,6 +319,33 @@ src/0027_remove_element.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/src/0027_remove_element.cpp.s
 .PHONY : src/0027_remove_element.cpp.s
 
+src/0035_search_and_insert.obj: src/0035_search_and_insert.cpp.obj
+
+.PHONY : src/0035_search_and_insert.obj
+
+# target to build an object file
+src/0035_search_and_insert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/src/0035_search_and_insert.cpp.obj
+.PHONY : src/0035_search_and_insert.cpp.obj
+
+src/0035_search_and_insert.i: src/0035_search_and_insert.cpp.i
+
+.PHONY : src/0035_search_and_insert.i
+
+# target to preprocess a source file
+src/0035_search_and_insert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/src/0035_search_and_insert.cpp.i
+.PHONY : src/0035_search_and_insert.cpp.i
+
+src/0035_search_and_insert.s: src/0035_search_and_insert.cpp.s
+
+.PHONY : src/0035_search_and_insert.s
+
+# target to generate assembly for a file
+src/0035_search_and_insert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/src/0035_search_and_insert.cpp.s
+.PHONY : src/0035_search_and_insert.cpp.s
+
 src/0217_contains_duplicate.obj: src/0217_contains_duplicate.cpp.obj
 
 .PHONY : src/0217_contains_duplicate.obj
@@ -424,6 +464,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 0001_two_sum
 	@echo ... 0026_remove_duplicates_from_sorted_array
+	@echo ... 0035_search_and_insert
 	@echo ... cpprevise_leetcode
 	@echo ... src/0001_two_sum.obj
 	@echo ... src/0001_two_sum.i
@@ -440,6 +481,9 @@ help:
 	@echo ... src/0027_remove_element.obj
 	@echo ... src/0027_remove_element.i
 	@echo ... src/0027_remove_element.s
+	@echo ... src/0035_search_and_insert.obj
+	@echo ... src/0035_search_and_insert.i
+	@echo ... src/0035_search_and_insert.s
 	@echo ... src/0217_contains_duplicate.obj
 	@echo ... src/0217_contains_duplicate.i
 	@echo ... src/0217_contains_duplicate.s

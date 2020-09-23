@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/DependInfo.cmake"
   "CMakeFiles/cpprevise_leetcode.dir/DependInfo.cmake"
   "CMakeFiles/0001_two_sum.dir/DependInfo.cmake"
+  "CMakeFiles/0035_search_and_insert.dir/DependInfo.cmake"
   )
