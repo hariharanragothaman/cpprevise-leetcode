@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 0009_palindrome_number
+
+# Build rule for target.
+0009_palindrome_number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0009_palindrome_number
+.PHONY : 0009_palindrome_number
+
+# fast build rule for target.
+0009_palindrome_number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_palindrome_number.dir\build.make CMakeFiles/0009_palindrome_number.dir/build
+.PHONY : 0009_palindrome_number/fast
+
+#=============================================================================
 # Target rules for targets named 0026_remove_duplicates_from_sorted_array
 
 # Build rule for target.
@@ -237,6 +250,33 @@ src/0003_longest_substring_without_repeating_characters.s: src/0003_longest_subs
 src/0003_longest_substring_without_repeating_characters.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/src/0003_longest_substring_without_repeating_characters.cpp.s
 .PHONY : src/0003_longest_substring_without_repeating_characters.cpp.s
+
+src/0009_palindrome_number.obj: src/0009_palindrome_number.cpp.obj
+
+.PHONY : src/0009_palindrome_number.obj
+
+# target to build an object file
+src/0009_palindrome_number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_palindrome_number.dir\build.make CMakeFiles/0009_palindrome_number.dir/src/0009_palindrome_number.cpp.obj
+.PHONY : src/0009_palindrome_number.cpp.obj
+
+src/0009_palindrome_number.i: src/0009_palindrome_number.cpp.i
+
+.PHONY : src/0009_palindrome_number.i
+
+# target to preprocess a source file
+src/0009_palindrome_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_palindrome_number.dir\build.make CMakeFiles/0009_palindrome_number.dir/src/0009_palindrome_number.cpp.i
+.PHONY : src/0009_palindrome_number.cpp.i
+
+src/0009_palindrome_number.s: src/0009_palindrome_number.cpp.s
+
+.PHONY : src/0009_palindrome_number.s
+
+# target to generate assembly for a file
+src/0009_palindrome_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_palindrome_number.dir\build.make CMakeFiles/0009_palindrome_number.dir/src/0009_palindrome_number.cpp.s
+.PHONY : src/0009_palindrome_number.cpp.s
 
 src/0014_longest_common_prefix.obj: src/0014_longest_common_prefix.cpp.obj
 
@@ -463,6 +503,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 0001_two_sum
+	@echo ... 0009_palindrome_number
 	@echo ... 0026_remove_duplicates_from_sorted_array
 	@echo ... 0035_search_and_insert
 	@echo ... cpprevise_leetcode
@@ -472,6 +513,9 @@ help:
 	@echo ... src/0003_longest_substring_without_repeating_characters.obj
 	@echo ... src/0003_longest_substring_without_repeating_characters.i
 	@echo ... src/0003_longest_substring_without_repeating_characters.s
+	@echo ... src/0009_palindrome_number.obj
+	@echo ... src/0009_palindrome_number.i
+	@echo ... src/0009_palindrome_number.s
 	@echo ... src/0014_longest_common_prefix.obj
 	@echo ... src/0014_longest_common_prefix.i
 	@echo ... src/0014_longest_common_prefix.s

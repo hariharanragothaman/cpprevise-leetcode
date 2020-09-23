@@ -16,3 +16,4 @@ add_executable(cpprevise_leetcode
 add_executable(0001_two_sum src/0001_two_sum.cpp)
 add_executable(0026_remove_duplicates_from_sorted_array src/0026_remove_duplicates_from_sorted_array.cpp)
 add_executable(0035_search_and_insert src/0035_search_and_insert.cpp)
+add_executable(0009_palindrome_number src/0009_palindrome_number.cpp)
