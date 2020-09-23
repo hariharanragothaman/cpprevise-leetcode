@@ -1,4 +1,7 @@
 /* Remove element from an array -in place and return the length of the resultant array */
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) 
@@ -31,4 +34,3 @@ public:
 };
 
 */
-

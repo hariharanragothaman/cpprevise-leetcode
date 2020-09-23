@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 0007_reverse_integer
+
+# Build rule for target.
+0007_reverse_integer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0007_reverse_integer
+.PHONY : 0007_reverse_integer
+
+# fast build rule for target.
+0007_reverse_integer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_reverse_integer.dir\build.make CMakeFiles/0007_reverse_integer.dir/build
+.PHONY : 0007_reverse_integer/fast
+
+#=============================================================================
 # Target rules for targets named 0009_palindrome_number
 
 # Build rule for target.
@@ -250,6 +263,33 @@ src/0003_longest_substring_without_repeating_characters.s: src/0003_longest_subs
 src/0003_longest_substring_without_repeating_characters.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/src/0003_longest_substring_without_repeating_characters.cpp.s
 .PHONY : src/0003_longest_substring_without_repeating_characters.cpp.s
+
+src/0007_reverse_integer.obj: src/0007_reverse_integer.cpp.obj
+
+.PHONY : src/0007_reverse_integer.obj
+
+# target to build an object file
+src/0007_reverse_integer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_reverse_integer.dir\build.make CMakeFiles/0007_reverse_integer.dir/src/0007_reverse_integer.cpp.obj
+.PHONY : src/0007_reverse_integer.cpp.obj
+
+src/0007_reverse_integer.i: src/0007_reverse_integer.cpp.i
+
+.PHONY : src/0007_reverse_integer.i
+
+# target to preprocess a source file
+src/0007_reverse_integer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_reverse_integer.dir\build.make CMakeFiles/0007_reverse_integer.dir/src/0007_reverse_integer.cpp.i
+.PHONY : src/0007_reverse_integer.cpp.i
+
+src/0007_reverse_integer.s: src/0007_reverse_integer.cpp.s
+
+.PHONY : src/0007_reverse_integer.s
+
+# target to generate assembly for a file
+src/0007_reverse_integer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_reverse_integer.dir\build.make CMakeFiles/0007_reverse_integer.dir/src/0007_reverse_integer.cpp.s
+.PHONY : src/0007_reverse_integer.cpp.s
 
 src/0009_palindrome_number.obj: src/0009_palindrome_number.cpp.obj
 
@@ -503,6 +543,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 0001_two_sum
+	@echo ... 0007_reverse_integer
 	@echo ... 0009_palindrome_number
 	@echo ... 0026_remove_duplicates_from_sorted_array
 	@echo ... 0035_search_and_insert
@@ -513,6 +554,9 @@ help:
 	@echo ... src/0003_longest_substring_without_repeating_characters.obj
 	@echo ... src/0003_longest_substring_without_repeating_characters.i
 	@echo ... src/0003_longest_substring_without_repeating_characters.s
+	@echo ... src/0007_reverse_integer.obj
+	@echo ... src/0007_reverse_integer.i
+	@echo ... src/0007_reverse_integer.s
 	@echo ... src/0009_palindrome_number.obj
 	@echo ... src/0009_palindrome_number.i
 	@echo ... src/0009_palindrome_number.s

@@ -27,6 +27,48 @@
 					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="0007_reverse_integer">
+				<Option output="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/0007_reverse_integer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 0007_reverse_integer"/>
+					<CompileFile command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0007_reverse_integer/fast">
+				<Option output="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/0007_reverse_integer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 0007_reverse_integer/fast"/>
+					<CompileFile command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="0009_palindrome_number">
 				<Option output="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug/0009_palindrome_number.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/cmake-build-debug"/>
@@ -254,6 +296,9 @@
 		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/src/0003_longest_substring_without_repeating_characters.cpp">
 			<Option target="cpprevise_leetcode"/>
+		</Unit>
+		<Unit filename="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/src/0007_reverse_integer.cpp">
+			<Option target="0007_reverse_integer"/>
 		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/daily_drivers/cpprevise-leetcode/src/0009_palindrome_number.cpp">
 			<Option target="0009_palindrome_number"/>
