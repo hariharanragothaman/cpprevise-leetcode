@@ -220,6 +220,19 @@ cpprevise_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/build
 .PHONY : 0020_valid_parantheses/fast
 
+#=============================================================================
+# Target rules for targets named 0053_maximum_subarray
+
+# Build rule for target.
+0053_maximum_subarray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0053_maximum_subarray
+.PHONY : 0053_maximum_subarray
+
+# fast build rule for target.
+0053_maximum_subarray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/build
+.PHONY : 0053_maximum_subarray/fast
+
 src/0001_two_sum.obj: src/0001_two_sum.cpp.obj
 
 .PHONY : src/0001_two_sum.obj
@@ -466,6 +479,33 @@ src/0035_search_and_insert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/src/0035_search_and_insert.cpp.s
 .PHONY : src/0035_search_and_insert.cpp.s
 
+src/0053_maximum_subarray.obj: src/0053_maximum_subarray.cpp.obj
+
+.PHONY : src/0053_maximum_subarray.obj
+
+# target to build an object file
+src/0053_maximum_subarray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/src/0053_maximum_subarray.cpp.obj
+.PHONY : src/0053_maximum_subarray.cpp.obj
+
+src/0053_maximum_subarray.i: src/0053_maximum_subarray.cpp.i
+
+.PHONY : src/0053_maximum_subarray.i
+
+# target to preprocess a source file
+src/0053_maximum_subarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/src/0053_maximum_subarray.cpp.i
+.PHONY : src/0053_maximum_subarray.cpp.i
+
+src/0053_maximum_subarray.s: src/0053_maximum_subarray.cpp.s
+
+.PHONY : src/0053_maximum_subarray.s
+
+# target to generate assembly for a file
+src/0053_maximum_subarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/src/0053_maximum_subarray.cpp.s
+.PHONY : src/0053_maximum_subarray.cpp.s
+
 src/0217_contains_duplicate.obj: src/0217_contains_duplicate.cpp.obj
 
 .PHONY : src/0217_contains_duplicate.obj
@@ -588,6 +628,7 @@ help:
 	@echo ... 0020_valid_parantheses
 	@echo ... 0026_remove_duplicates_from_sorted_array
 	@echo ... 0035_search_and_insert
+	@echo ... 0053_maximum_subarray
 	@echo ... cpprevise_leetcode
 	@echo ... src/0001_two_sum.obj
 	@echo ... src/0001_two_sum.i
@@ -616,6 +657,9 @@ help:
 	@echo ... src/0035_search_and_insert.obj
 	@echo ... src/0035_search_and_insert.i
 	@echo ... src/0035_search_and_insert.s
+	@echo ... src/0053_maximum_subarray.obj
+	@echo ... src/0053_maximum_subarray.i
+	@echo ... src/0053_maximum_subarray.s
 	@echo ... src/0217_contains_duplicate.obj
 	@echo ... src/0217_contains_duplicate.i
 	@echo ... src/0217_contains_duplicate.s

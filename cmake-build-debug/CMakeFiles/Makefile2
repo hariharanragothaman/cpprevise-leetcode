@@ -79,6 +79,7 @@ all: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
 all: CMakeFiles/0001_two_sum.dir/all
 all: CMakeFiles/0035_search_and_insert.dir/all
 all: CMakeFiles/0020_valid_parantheses.dir/all
+all: CMakeFiles/0053_maximum_subarray.dir/all
 
 .PHONY : all
 
@@ -95,6 +96,7 @@ clean: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
 clean: CMakeFiles/0001_two_sum.dir/clean
 clean: CMakeFiles/0035_search_and_insert.dir/clean
 clean: CMakeFiles/0020_valid_parantheses.dir/clean
+clean: CMakeFiles/0053_maximum_subarray.dir/clean
 
 .PHONY : clean
 
@@ -159,7 +161,7 @@ CMakeFiles/0009_palindrome_number.dir/clean:
 CMakeFiles/cpprevise_leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21 "Built target cpprevise_leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23 "Built target cpprevise_leetcode"
 .PHONY : CMakeFiles/cpprevise_leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,6 +288,33 @@ CMakeFiles/0020_valid_parantheses.dir/rule: cmake_check_build_system
 CMakeFiles/0020_valid_parantheses.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/clean
 .PHONY : CMakeFiles/0020_valid_parantheses.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0053_maximum_subarray.dir
+
+# All Build rule for target.
+CMakeFiles/0053_maximum_subarray.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 0053_maximum_subarray"
+.PHONY : CMakeFiles/0053_maximum_subarray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0053_maximum_subarray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0053_maximum_subarray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/0053_maximum_subarray.dir/rule
+
+# Convenience name for target.
+0053_maximum_subarray: CMakeFiles/0053_maximum_subarray.dir/rule
+
+.PHONY : 0053_maximum_subarray
+
+# clean rule for target.
+CMakeFiles/0053_maximum_subarray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/clean
+.PHONY : CMakeFiles/0053_maximum_subarray.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

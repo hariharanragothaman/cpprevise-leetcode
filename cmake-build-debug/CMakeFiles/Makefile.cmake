@@ -60,4 +60,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/0001_two_sum.dir/DependInfo.cmake"
   "CMakeFiles/0035_search_and_insert.dir/DependInfo.cmake"
   "CMakeFiles/0020_valid_parantheses.dir/DependInfo.cmake"
+  "CMakeFiles/0053_maximum_subarray.dir/DependInfo.cmake"
   )
