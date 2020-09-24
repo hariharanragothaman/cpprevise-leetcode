@@ -156,19 +156,6 @@ depend:
 .PHONY : 0009_palindrome_number/fast
 
 #=============================================================================
-# Target rules for targets named 0026_remove_duplicates_from_sorted_array
-
-# Build rule for target.
-0026_remove_duplicates_from_sorted_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0026_remove_duplicates_from_sorted_array
-.PHONY : 0026_remove_duplicates_from_sorted_array
-
-# fast build rule for target.
-0026_remove_duplicates_from_sorted_array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/build
-.PHONY : 0026_remove_duplicates_from_sorted_array/fast
-
-#=============================================================================
 # Target rules for targets named cpprevise_leetcode
 
 # Build rule for target.
@@ -180,6 +167,19 @@ cpprevise_leetcode: cmake_check_build_system
 cpprevise_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/build
 .PHONY : cpprevise_leetcode/fast
+
+#=============================================================================
+# Target rules for targets named 0026_remove_duplicates_from_sorted_array
+
+# Build rule for target.
+0026_remove_duplicates_from_sorted_array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0026_remove_duplicates_from_sorted_array
+.PHONY : 0026_remove_duplicates_from_sorted_array
+
+# fast build rule for target.
+0026_remove_duplicates_from_sorted_array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/build
+.PHONY : 0026_remove_duplicates_from_sorted_array/fast
 
 #=============================================================================
 # Target rules for targets named 0001_two_sum
@@ -206,6 +206,19 @@ cpprevise_leetcode/fast:
 0035_search_and_insert/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/build
 .PHONY : 0035_search_and_insert/fast
+
+#=============================================================================
+# Target rules for targets named 0020_valid_parantheses
+
+# Build rule for target.
+0020_valid_parantheses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0020_valid_parantheses
+.PHONY : 0020_valid_parantheses
+
+# fast build rule for target.
+0020_valid_parantheses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/build
+.PHONY : 0020_valid_parantheses/fast
 
 src/0001_two_sum.obj: src/0001_two_sum.cpp.obj
 
@@ -344,6 +357,33 @@ src/0014_longest_common_prefix.s: src/0014_longest_common_prefix.cpp.s
 src/0014_longest_common_prefix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/src/0014_longest_common_prefix.cpp.s
 .PHONY : src/0014_longest_common_prefix.cpp.s
+
+src/0020_valid_parantheses.obj: src/0020_valid_parantheses.cpp.obj
+
+.PHONY : src/0020_valid_parantheses.obj
+
+# target to build an object file
+src/0020_valid_parantheses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/src/0020_valid_parantheses.cpp.obj
+.PHONY : src/0020_valid_parantheses.cpp.obj
+
+src/0020_valid_parantheses.i: src/0020_valid_parantheses.cpp.i
+
+.PHONY : src/0020_valid_parantheses.i
+
+# target to preprocess a source file
+src/0020_valid_parantheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/src/0020_valid_parantheses.cpp.i
+.PHONY : src/0020_valid_parantheses.cpp.i
+
+src/0020_valid_parantheses.s: src/0020_valid_parantheses.cpp.s
+
+.PHONY : src/0020_valid_parantheses.s
+
+# target to generate assembly for a file
+src/0020_valid_parantheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/src/0020_valid_parantheses.cpp.s
+.PHONY : src/0020_valid_parantheses.cpp.s
 
 src/0026_remove_duplicates_from_sorted_array.obj: src/0026_remove_duplicates_from_sorted_array.cpp.obj
 
@@ -545,6 +585,7 @@ help:
 	@echo ... 0001_two_sum
 	@echo ... 0007_reverse_integer
 	@echo ... 0009_palindrome_number
+	@echo ... 0020_valid_parantheses
 	@echo ... 0026_remove_duplicates_from_sorted_array
 	@echo ... 0035_search_and_insert
 	@echo ... cpprevise_leetcode
@@ -563,6 +604,9 @@ help:
 	@echo ... src/0014_longest_common_prefix.obj
 	@echo ... src/0014_longest_common_prefix.i
 	@echo ... src/0014_longest_common_prefix.s
+	@echo ... src/0020_valid_parantheses.obj
+	@echo ... src/0020_valid_parantheses.i
+	@echo ... src/0020_valid_parantheses.s
 	@echo ... src/0026_remove_duplicates_from_sorted_array.obj
 	@echo ... src/0026_remove_duplicates_from_sorted_array.i
 	@echo ... src/0026_remove_duplicates_from_sorted_array.s

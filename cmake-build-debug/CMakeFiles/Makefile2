@@ -74,10 +74,11 @@ CMAKE_BINARY_DIR = C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake
 # The main recursive "all" target.
 all: CMakeFiles/0007_reverse_integer.dir/all
 all: CMakeFiles/0009_palindrome_number.dir/all
-all: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
 all: CMakeFiles/cpprevise_leetcode.dir/all
+all: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
 all: CMakeFiles/0001_two_sum.dir/all
 all: CMakeFiles/0035_search_and_insert.dir/all
+all: CMakeFiles/0020_valid_parantheses.dir/all
 
 .PHONY : all
 
@@ -89,10 +90,11 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/0007_reverse_integer.dir/clean
 clean: CMakeFiles/0009_palindrome_number.dir/clean
-clean: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
 clean: CMakeFiles/cpprevise_leetcode.dir/clean
+clean: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
 clean: CMakeFiles/0001_two_sum.dir/clean
 clean: CMakeFiles/0035_search_and_insert.dir/clean
+clean: CMakeFiles/0020_valid_parantheses.dir/clean
 
 .PHONY : clean
 
@@ -151,40 +153,13 @@ CMakeFiles/0009_palindrome_number.dir/clean:
 .PHONY : CMakeFiles/0009_palindrome_number.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/0026_remove_duplicates_from_sorted_array.dir
-
-# All Build rule for target.
-CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 0026_remove_duplicates_from_sorted_array"
-.PHONY : CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/rule
-
-# Convenience name for target.
-0026_remove_duplicates_from_sorted_array: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/rule
-
-.PHONY : 0026_remove_duplicates_from_sorted_array
-
-# clean rule for target.
-CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
-.PHONY : CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/cpprevise_leetcode.dir
 
 # All Build rule for target.
 CMakeFiles/cpprevise_leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19 "Built target cpprevise_leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21 "Built target cpprevise_leetcode"
 .PHONY : CMakeFiles/cpprevise_leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -203,6 +178,33 @@ cpprevise_leetcode: CMakeFiles/cpprevise_leetcode.dir/rule
 CMakeFiles/cpprevise_leetcode.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpprevise_leetcode.dir\build.make CMakeFiles/cpprevise_leetcode.dir/clean
 .PHONY : CMakeFiles/cpprevise_leetcode.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0026_remove_duplicates_from_sorted_array.dir
+
+# All Build rule for target.
+CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 0026_remove_duplicates_from_sorted_array"
+.PHONY : CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/rule
+
+# Convenience name for target.
+0026_remove_duplicates_from_sorted_array: CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/rule
+
+.PHONY : 0026_remove_duplicates_from_sorted_array
+
+# clean rule for target.
+CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0026_remove_duplicates_from_sorted_array.dir\build.make CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
+.PHONY : CMakeFiles/0026_remove_duplicates_from_sorted_array.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/0001_two_sum.dir
@@ -238,7 +240,7 @@ CMakeFiles/0001_two_sum.dir/clean:
 CMakeFiles/0035_search_and_insert.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 0035_search_and_insert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 0035_search_and_insert"
 .PHONY : CMakeFiles/0035_search_and_insert.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,6 +259,33 @@ CMakeFiles/0035_search_and_insert.dir/rule: cmake_check_build_system
 CMakeFiles/0035_search_and_insert.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0035_search_and_insert.dir\build.make CMakeFiles/0035_search_and_insert.dir/clean
 .PHONY : CMakeFiles/0035_search_and_insert.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/0020_valid_parantheses.dir
+
+# All Build rule for target.
+CMakeFiles/0020_valid_parantheses.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 0020_valid_parantheses"
+.PHONY : CMakeFiles/0020_valid_parantheses.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/0020_valid_parantheses.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0020_valid_parantheses.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\daily_drivers\cpprevise-leetcode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/0020_valid_parantheses.dir/rule
+
+# Convenience name for target.
+0020_valid_parantheses: CMakeFiles/0020_valid_parantheses.dir/rule
+
+.PHONY : 0020_valid_parantheses
+
+# clean rule for target.
+CMakeFiles/0020_valid_parantheses.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_valid_parantheses.dir\build.make CMakeFiles/0020_valid_parantheses.dir/clean
+.PHONY : CMakeFiles/0020_valid_parantheses.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
