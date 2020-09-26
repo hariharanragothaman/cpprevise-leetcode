@@ -233,6 +233,19 @@ cpprevise_leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/build
 .PHONY : 0053_maximum_subarray/fast
 
+#=============================================================================
+# Target rules for targets named 0058_length_of_last_word
+
+# Build rule for target.
+0058_length_of_last_word: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0058_length_of_last_word
+.PHONY : 0058_length_of_last_word
+
+# fast build rule for target.
+0058_length_of_last_word/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0058_length_of_last_word.dir\build.make CMakeFiles/0058_length_of_last_word.dir/build
+.PHONY : 0058_length_of_last_word/fast
+
 src/0001_two_sum.obj: src/0001_two_sum.cpp.obj
 
 .PHONY : src/0001_two_sum.obj
@@ -506,6 +519,33 @@ src/0053_maximum_subarray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0053_maximum_subarray.dir\build.make CMakeFiles/0053_maximum_subarray.dir/src/0053_maximum_subarray.cpp.s
 .PHONY : src/0053_maximum_subarray.cpp.s
 
+src/0058_length_of_last_word.obj: src/0058_length_of_last_word.cpp.obj
+
+.PHONY : src/0058_length_of_last_word.obj
+
+# target to build an object file
+src/0058_length_of_last_word.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0058_length_of_last_word.dir\build.make CMakeFiles/0058_length_of_last_word.dir/src/0058_length_of_last_word.cpp.obj
+.PHONY : src/0058_length_of_last_word.cpp.obj
+
+src/0058_length_of_last_word.i: src/0058_length_of_last_word.cpp.i
+
+.PHONY : src/0058_length_of_last_word.i
+
+# target to preprocess a source file
+src/0058_length_of_last_word.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0058_length_of_last_word.dir\build.make CMakeFiles/0058_length_of_last_word.dir/src/0058_length_of_last_word.cpp.i
+.PHONY : src/0058_length_of_last_word.cpp.i
+
+src/0058_length_of_last_word.s: src/0058_length_of_last_word.cpp.s
+
+.PHONY : src/0058_length_of_last_word.s
+
+# target to generate assembly for a file
+src/0058_length_of_last_word.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0058_length_of_last_word.dir\build.make CMakeFiles/0058_length_of_last_word.dir/src/0058_length_of_last_word.cpp.s
+.PHONY : src/0058_length_of_last_word.cpp.s
+
 src/0217_contains_duplicate.obj: src/0217_contains_duplicate.cpp.obj
 
 .PHONY : src/0217_contains_duplicate.obj
@@ -629,6 +669,7 @@ help:
 	@echo ... 0026_remove_duplicates_from_sorted_array
 	@echo ... 0035_search_and_insert
 	@echo ... 0053_maximum_subarray
+	@echo ... 0058_length_of_last_word
 	@echo ... cpprevise_leetcode
 	@echo ... src/0001_two_sum.obj
 	@echo ... src/0001_two_sum.i
@@ -660,6 +701,9 @@ help:
 	@echo ... src/0053_maximum_subarray.obj
 	@echo ... src/0053_maximum_subarray.i
 	@echo ... src/0053_maximum_subarray.s
+	@echo ... src/0058_length_of_last_word.obj
+	@echo ... src/0058_length_of_last_word.i
+	@echo ... src/0058_length_of_last_word.s
 	@echo ... src/0217_contains_duplicate.obj
 	@echo ... src/0217_contains_duplicate.i
 	@echo ... src/0217_contains_duplicate.s
