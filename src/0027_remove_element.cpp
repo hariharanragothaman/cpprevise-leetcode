@@ -1,5 +1,6 @@
 /* Remove element from an array -in place and return the length of the resultant array */
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {
