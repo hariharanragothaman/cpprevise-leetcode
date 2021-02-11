@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cpprevise_leetcode.dir/objects.a
-C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\cpprevise_leetcode.dir/objects.a @CMakeFiles\cpprevise_leetcode.dir\objects1.rsp
-C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\cpprevise_leetcode.dir/objects.a -Wl,--no-whole-archive  -o cpprevise_leetcode.exe -Wl,--out-implib,libcpprevise_leetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpprevise_leetcode.dir\linklibs.rsp
