@@ -16,10 +16,6 @@ public:
                 index++;
             }
         }
-        
-        for(auto i : nums)
-            cout << i;
-        
         return index;
     }
 };
@@ -35,3 +31,15 @@ public:
 };
 
 */
+
+int main()
+{
+    vector<int> nums = {3, 2, 2, 3};
+    int val = 3;
+
+    Solution s1;
+    int result = s1.removeElement(nums, val);
+    cout << "The result is " << result << endl;
+
+    return 0;
+}
