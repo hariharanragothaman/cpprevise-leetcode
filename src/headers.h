@@ -8,5 +8,12 @@
 #endif //CPPREVISE_LEETCODE_HEADERS_H
 
 #include <iostream>
+
+// Vector related stuff
 #include <vector>
+
+
+// Hashmap related stuff
+#include <unordered_map>
+
 using namespace std;
