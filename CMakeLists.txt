@@ -17,3 +17,4 @@ add_executable(1742_maximum_number_of_balls_in_a_box src/1742_maximum_number_of_
 add_executable(0027_remove_element src/0027_remove_element.cpp)
 add_executable(412_fizz_buzz src/0412_fizz_buzz.cpp)
 add_executable(0387_first_unique_character_in_string src/0387_first_unique_character_in_string.cpp)
+add_executable(0243_shortest_word_distance src/0243_shortest_word_distance.cpp)
