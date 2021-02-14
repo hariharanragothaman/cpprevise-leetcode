@@ -24,3 +24,4 @@ add_executable(1295_find_numbers_with_even_number_of_digits src/1295_find_number
 add_executable(0128_longest_consecutive_sequence src/0128_longest_consecutive_sequence.cpp)
 add_executable(1636_sort_array_by_frequency src/1636_sort_array_by_frequency.cpp)
 add_executable(0031_next_permutation src/0031_next_permutation.cpp)
+add_executable(1732_find_the_highest_altitude src/1732_find_the_highest_altitude.cpp)

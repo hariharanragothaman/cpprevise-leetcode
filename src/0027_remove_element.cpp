@@ -1,7 +1,5 @@
 /* Remove element from an array -in place and return the length of the resultant array */
-#include <iostream>
-#include <vector>
-using namespace std;
+#include "headers.h"
 
 class Solution {
 public:
@@ -20,17 +18,11 @@ public:
     }
 };
 
-/*  The other smart way to do it using STL is: 
-class Solution {
-public:
-    int removeElement(vector<int>& nums, int val) 
-    {
-        nums.erase(remove(nums.begin(), nums.end(), val), nums.end());
-        return nums.size();
-    }
-};
-
-*/
+int removeElement(vector<int>& nums, int val)
+{
+    nums.erase(remove(nums.begin(), nums.end(), val), nums.end());
+    return nums.size();
+}
 
 int main()
 {
@@ -38,7 +30,7 @@ int main()
     int val = 3;
 
     Solution s1;
-    int result = s1.removeElement(nums, val);
+    int result = removeElement(nums, val);
     cout << "The result is " << result << endl;
 
     return 0;
