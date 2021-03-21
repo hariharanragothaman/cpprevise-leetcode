@@ -19,6 +19,29 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 
 // Alternatively we can also sort both of them and check if they are the same.
+class Solution {
+public:
+    bool isAnagram(string s, string t)
+    {
+        vector<int> c1(26, 0), c2(26,0);
+        for(auto it: s)
+        {
+            c1[it-'a']++;
+        }
+
+        for(auto it: t)
+        {
+            c2[it-'a']++;
+        }
+
+        for(int it = 0; it < 26; it++)
+        {
+            if(c1[it] != c2[it])
+                return false;
+        }
+        return true;
+    }
+};
 
 bool isAnagram(string s, string t)
 {
