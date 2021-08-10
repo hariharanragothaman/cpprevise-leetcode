@@ -1,35 +1,33 @@
-#include <iostream>
-#include <string>
-#include <algorithm>
-#include <vector>
-using namespace std;
+#include "headers.h"
 
-int longest_substring_without_repeating_characters(string s)
-{
-    vector<int> dict(256, -1);
-    int max_length = 0;
-    int start = -1;
-
-    for(int i = 0; i < s.length(); i++)
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s)
     {
-        if (dict[s[i]] > start)
+        int n = s.size();
+        int left = 0;
+        int right = 0;
+        
+        vector<int> hmap(128);
+        
+        int res = 0;
+        
+        while(right < s.length())
         {
-            start = dict[s[i]];
+            char ch = s[right];
+            hmap[ch]++;
+
+            // While loop to contract the window
+            while(hmap[ch] > 1)
+            {
+                char l = s[left];
+                hmap[l] --;
+                left++;
+                
+            }
+            
+            res = max(res, right-left+1);
+            right++;
         }
-
-        dict[s[i]] = i;
-        max_length = max(max_length, i - start);
     }
-    return max_length;
-
-
-}
-
-int main()
-{
-    string s = "ababab";
-    int length = 0;
-    length = longest_substring_without_repeating_characters(s);
-    cout << "The length is:" << length;
-    return 0;
-}
+};
