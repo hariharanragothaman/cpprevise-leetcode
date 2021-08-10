@@ -1,53 +1,42 @@
-#include <iostream>
-#include <vector>
-#include <map>
-using namespace std;
+#include "headers.h"
 
-vector<int> twoSum(vector<int>& nums, int target)
+class Solution
 {
-    vector<int> result;
-
-    map<int, int> hmap;
-    int idx = 0;
-
-    for(auto& elem: nums)
+public:
+    vector<int> twoSum(vector<int> nums, int target)
     {
-        hmap[elem] = idx++;
-    }
+        vector<int> result;
+        int n = nums.size();
+        unordered_map<int, int> hmap;
 
-
-    for(int i=0; i < nums.size(); i++)
-    {
-        if( hmap.count(target - nums[i]) > 0 and i != hmap[target-nums[i]])
+        for(int i=0; i<n; i++)
         {
-            result.push_back(i);
-            result.push_back(hmap[target-nums[i]]);
-            return result;
+            hmap[nums[i]] = i;
         }
-    }
 
-    return {};
-}
+        int diff;
+        for(int i=0; i<n; i++)
+        {
+            diff = target - nums[i];
+            auto index = find(nums.begin(), nums.end(), diff);
+            if (index != nums.end() && hmap[diff] != i)
+            {
+                result.emplace_back(i);
+                result.emplace_back(hmap[diff]);
+                return result;
+            }
+        }
+        return result;
+    }
+};
 
 int main()
 {
-    /*
-     Since we are doing hashmap:
-     Time-Complexity is: O(n) worst case for hashmap
-     Space-Complexity is: O(n)
-
-    */
-    vector<int> nums = {2, 7, 11, 15};
-    vector<int> result;
-    
+    Solution s;
+    vi nums = {2, 7, 11, 15};
     int target = 9;
-    result = twoSum(nums, target);
-
-    int idx = 0;
-    for(auto& elem: result)
-    {
-        cout << elem;
-    }
-
+    vi res = s.twoSum(nums, target);
+    auto lambda_print = [](auto& n) { cout << "Value:" << '\t' << n << endl; };
+    for_each(res.begin(), res.end(), lambda_print);
     return 0;
 }

@@ -1,20 +1,20 @@
-#pragma once
-#ifndef CPPMASTER_HEADERS_H
-#define CPPMASTER_HEADERS_H
-
-#include <iostream>
+/* BEGIN HEADER FILES AND OTHER OPTIZATIONS */
 #pragma GCC optimize("Ofast")
+#pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("inline")
+#include <iostream>
+#include <fstream>
 #include <algorithm>
-
 #include <array>
 #include <bitset>
 #include <cassert>
 #include <chrono>
 #include <cstring>
 #include <iomanip>
-
 #include <iostream>
+#include <fstream>
 #include <sstream>
+using namespace std;
 
 // For Hash
 #include <functional>
@@ -33,7 +33,6 @@
 #include <unordered_map>
 #include <unordered_set>
 
-using namespace std;
 
 // Some basic typedef's for comfort
 typedef vector<int> vi;
@@ -46,7 +45,6 @@ typedef pair<ll, ll> pll;
 
 // #defines for comfort
 #define f first
-#define s second
 #define mp make_pair
 #define pb push_back
 #define eb emplace_back
@@ -57,9 +55,9 @@ typedef pair<ll, ll> pll;
 
 
 // begin deepsigh
-#define min(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var0 : __var1; })
-#define max(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var1 : __var0; })
-static const int ENABLEFASTIO = []() { std::ios::sync_with_stdio(false); std::cin.tie(nullptr); std::cout.tie(nullptr); return 0; }();
+//#define min(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var0 : __var1; })
+//#define max(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var1 : __var0; })
+//static const int ENABLEFASTIO = []() { std::ios::sync_with_stdio(false); std::cin.tie(nullptr); std::cout.tie(nullptr); return 0; }();
 // end deepsigh
 
 // BEGIN NO SAD
@@ -69,12 +67,16 @@ static const int ENABLEFASTIO = []() { std::ios::sync_with_stdio(false); std::ci
 #define sz(x) (int)(x).size()
 // END NO SAD
 
-// REMEMBER CLEAR GLOBAL STATE
-// REMEMBER READ THE PROBLEM STATEMENT AND DON'T SOLVE A DIFFERENT PROBLEM
-// remember hidden T factor of 1e2
-// read the bounds for stupid cases
-// did you restart your editor
-// pushing back vectors is garbage, pre-initialize them
-// function calls are not free
+/* END HEADER FILES AND OTHER OPTIZATIONS */
 
-#endif //CPPMASTER_HEADERS_H
+/*
+Some General Advice
+
+REMEMBER CLEAR GLOBAL STATE
+REMEMBER READ THE PROBLEM STATEMENT AND DON'T SOLVE A DIFFERENT PROBLEM
+remember hidden T factor of 1e2
+read the bounds for stupid cases
+did you restart your editor
+pushing back vectors is garbage, pre-initialize them
+function calls are not free
+*/

@@ -4,7 +4,6 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s)
     {
-        int n = s.size();
         int left = 0;
         int right = 0;
         
@@ -29,5 +28,14 @@ public:
             res = max(res, right-left+1);
             right++;
         }
+        return res;
     }
 };
+
+int main()
+{
+    Solution s;
+    int ans = s.lengthOfLongestSubstring("abcabcbb");
+    cout << ans;
+    return 0;
+}
