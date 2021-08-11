@@ -4,6 +4,16 @@
 #include <algorithm>
 using namespace  std;
 
+class Solution {
+public:
+    bool isPalindrome(int x)
+    {
+        string s = to_string(x);
+        return s == string(s.rbegin(), s.rend()) ? true:false;
+
+    }
+};
+
 bool isPalindrome(int x)
 {
     // Basic idea here is to reverse the integer.
